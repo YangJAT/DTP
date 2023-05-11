@@ -204,9 +204,7 @@ name = "umap_features_within002.png"
 export_featureplot(all_plots = all_plots,
                    ncol = 3, dpi = 300, output = name)
 
-
-
-# sample-wise ==================================================================
+# sample-wise
 
 unique(datafilt$sample)
 datafilt$sample[datafilt$sample == "PS003n" |
